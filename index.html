@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./images/favicon-32x32.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Mentor | Intro component with sign up form</title>
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+    </style>
+    <link rel="stylesheet" href="./styles.css" />
+    <script type="module" src="/main.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <section class="text-sect">
+        <h1 class="title">Learn to code by watching others</h1>
+        <p class="desc">
+          See how experienced developers solve problems in real-time. Watching
+          scripted tutorials is great, but understanding how developers think is
+          invaluable.
+        </p>
+      </section>
+      <section class="form-sect">
+        <p class="banner"><b>Try it free 7 days</b> then $20/mo. thereafter</p>
+        <form class="login-form" action="#" novalidate>
+          <div class="input-group">
+            <input
+              type="text"
+              name="first-name"
+              id="fName"
+              placeholder="First Name"
+              required
+            />
+            <p class="invalid-feedback">First Name cannot be empty</p>
+          </div>
+          <div class="input-group">
+            <input
+              type="text"
+              name="last-name"
+              id="lName"
+              placeholder="Last Name"
+              required
+            />
+            <p class="invalid-feedback">Last Name cannot be empty</p>
+          </div>
+          <div class="input-group">
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email Address"
+              required
+            />
+            <p class="invalid-feedback">Looks like this is not an email</p>
+          </div>
+          <div class="input-group">
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Password"
+              required
+            />
+            <p class="invalid-feedback">Password cannot be empty</p>
+          </div>
+          <input type="submit" value="Claim your free trial" />
+          <p class="form-info">
+            By clicking the button, you are agreeing to our
+            <a href="#">Terms and Services</a>
+          </p>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://github.com/tomatikrad" target="_blank">tomatikrad</a>.
+      </p>
+    </footer>
+  </body>
+</html>
